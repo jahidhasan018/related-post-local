@@ -1,0 +1,37 @@
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.related-post h2 {
+    margin-bottom: 10px;
+    margin-top: 40px;
+    font-size: 34px;
+    border-bottom: 1px solid #ddd;
+}
+.related-post ul a {
+    text-decoration: none;
+}
+
+.rlpl-related-post-grid {
+    display: flex;
+    gap: 10px;
+    font-size: 13px;
+}
+
+.rlpl-related-post-list li {
+    display: flex;
+    gap: 10px;
+}
+.rlpl-thumbnail {
+    width: 10%;
+}
+
+.rlpl-thumbnail img {
+    width: 100%;
+    height: auto;
+}
+.rlpl-related-post-list li a {
+    font-size: 20px;
+}
